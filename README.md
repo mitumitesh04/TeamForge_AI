@@ -252,15 +252,6 @@ The system exposes REST endpoints and WebSocket connections:
 - `GET /health` - System health check
 - `WS /ws` - Real-time agent updates
 
-## 📈 Performance & Scalability
-
-- **Async Processing**: Non-blocking AI agent execution
-- **Real-time Updates**: WebSocket for live progress tracking
-- **Memory Efficient**: Optimized data structures and cleanup
-- **Concurrent Analysis**: Multiple team optimizations simultaneously
-- **Error Recovery**: Graceful handling of agent failures
-
-
 ### Environment Setup
 ```bash
 # Production environment variables
@@ -269,67 +260,6 @@ PORT=8000
 DEBUG=false
 DATABASE_URL=postgresql://user:pass@host:5432/teamforge
 SENTRY_DSN=your_sentry_dsn
-```
-
-## 📚 API Documentation
-
-### Start Optimization
-```http
-POST /optimize-team
-Content-Type: application/json
-
-{
-  "requirements": {
-    "projectName": "Mobile Banking App",
-    "teamSize": 4,
-    "skills": ["React Native", "Node.js", "UI/UX", "Security"],
-    "projectType": "mobile-app",
-    "priority": "high",
-    "timeline": "6",
-    "budget": "standard"
-  },
-  "personnel": [
-    {
-      "name": "Alice Johnson",
-      "skills": ["React Native", "JavaScript", "UI/UX"],
-      "experience": "senior",
-      "mbtiType": "ENTJ",
-      "experienceYears": 7,
-      "availability": "full-time",
-      "hourlyRate": 85
-    }
-  ]
-}
-```
-
-### Response
-```json
-{
-  "status": "success",
-  "data": {
-    "recommendations": [
-      {
-        "rank": 1,
-        "team": {
-          "members": [...],
-          "overallScore": 0.94,
-          "mbtiCompatibility": 0.87,
-          "technicalFeasibility": 0.92
-        },
-        "reasoning": [
-          "Excellent technical skill alignment",
-          "High MBTI compatibility confirmed",
-          "Strong project delivery capability"
-        ]
-      }
-    ],
-    "metadata": {
-      "confidence": 0.94,
-      "processingMethod": "real_4_agent_sequential",
-      "aiEngine": "CrewAI + Google Gemini"
-    }
-  }
-}
 ```
 
 ## 🤝 Contributing
