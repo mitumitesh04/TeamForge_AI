@@ -290,19 +290,3 @@ The system tracks various performance metrics:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-##  Acknowledgments
-
-- **CrewAI** - Multi-agent framework foundation
-- **Google Gemini** - Advanced language model capabilities
-- **MBTI Research** - Psychological compatibility foundations
-- **FastAPI** - High-performance web framework
-- **React** - Modern frontend development
-
-<div align="center">
-  <strong>Built with ❤️ using AI Agents and Modern Web Technologies</strong>
-</div>
-
-<div align="center">
-  <sub>⭐ Star this repo if you find it helpful!</sub>
-</div>
