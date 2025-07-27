@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+websockets
+crewai
+langchain-google-genai
+langchain
+langchain-core
+langchain-community
+google-generativeai
+pydantic
+python-dotenv
+httpx
+pytest
+pytest-asyncio
+black
+flake8
